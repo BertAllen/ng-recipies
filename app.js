@@ -10,7 +10,7 @@ app.controller("LittleNest", function ($scope) {
 
 app.directive("myWidget", function () {
     return {
-        restrict: "E",
+        restrict: "AE",
         transclude: true,
         template: "<div ng-transclude><h3>Transcluded Heading</h3></div>"
     };
